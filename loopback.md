@@ -12,19 +12,11 @@
 
 plural指的是RESTful API的route名，一个Model对应的route默认情况下会被plural（复数化），比如Post的路径是Posts。
 
-
-
 访问http://127.0.0.1:3000/explorer 就能看到一个用Swagger做的API dashboard。
-
-
 
 API Explorer
 
-
-
 如何连Database
-
-
 
 如何在前端使用创建出来的API
 

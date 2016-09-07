@@ -6,9 +6,11 @@
 
 ➜ sudo chown -R $USER /usr/local/lib/node_modules
 
-安装StrongLoop sudo npm install -g strongloop 创建一个应用 slc loopback
+安装`StrongLoop sudo npm install -g strongloop` 
 
-创建一个Model slc loopback:model
+创建一个应用 `slc loopback`
+
+创建一个Model `slc loopback:model`
 
 plural指的是RESTful API的route名，一个Model对应的route默认情况下会被plural（复数化），比如Post的路径是Posts。
 

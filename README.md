@@ -1,3 +1,3 @@
-# My Awesome Book
+# 开发文档
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本文内容详细讲解开发使用到的技术，以及一些主意.

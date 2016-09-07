@@ -7,6 +7,7 @@
         * [View组件](rnview.md)
         * [Lifecycle](lifecycle.md)
         * [Stream](stream.md)
+        * [事件处理](事件处理.md)
 * [服务端](server.md)
     * [NodeJS](nodejs.md)
         * [NVM](nvm.md)

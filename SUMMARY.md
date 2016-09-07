@@ -11,4 +11,6 @@
 * [其它](others.md)
     * [bash shell](bash-shell.md)
     * [HomeBrew](homebrew.md)
+        * [WatchMan](watchman.md)
+        * [Flow](flow.md)
 

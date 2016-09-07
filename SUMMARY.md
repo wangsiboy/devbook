@@ -8,5 +8,6 @@
     * [NodeJS](nodejs.md)
         * [NVM](nvm.md)
         * [install](ninstall.md)
-        
+* [其它](others.md)
+    * [bash shell](bash-shell.md)
 

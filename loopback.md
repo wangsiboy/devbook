@@ -2,9 +2,9 @@
 
 开发环境下改变以下目录的用户权限：
 
-➜sudo chown -R $USER /usr/local/bin
+➜ sudo chown -R $USER /usr/local/bin
 
-➜sudo chown -R $USER /usr/local/lib/node_modules
+➜ sudo chown -R $USER /usr/local/lib/node_modules
 
 安装StrongLoop sudo npm install -g strongloop 创建一个应用 slc loopback
 

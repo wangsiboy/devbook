@@ -5,6 +5,7 @@
     * [react-native](react-native.md)
         * [开发环境搭建](rnspace.md)
         * [View组件](rnview.md)
+        * [Lifecycle](lifecycle.md)
 * [服务端](server.md)
     * [NodeJS](nodejs.md)
         * [NVM](nvm.md)

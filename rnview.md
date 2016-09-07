@@ -15,7 +15,6 @@ ios中渲染成一个UIView，Android中是一个View。
 平台的特定元素：
 
 DatePickerIOS 表示 ios上的日期选择器
-
 ```
 
 DatePickerIOS

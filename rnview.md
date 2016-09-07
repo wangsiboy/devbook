@@ -20,7 +20,8 @@ DatePickerIOS 表示 ios上的日期选择器
 <DatePickerIOS
 date={this.state.date}
 mode="date"
-timeZoneOffsetInMinutes={this.state.timeZoneOffsetInHours * 60}/>
+timeZoneOffsetInMinutes={this.state.timeZoneOffsetInHours * 60}
+/>
 
 ```
 

@@ -16,7 +16,6 @@ ios中渲染成一个UIView，Android中是一个View。
 
 DatePickerIOS 表示 ios上的日期选择器
 ```
-
 DatePickerIOS
 date={this.state.date}
 mode="date"

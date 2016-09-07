@@ -34,8 +34,6 @@ var SurveyTableRow = React.createClass({
 
 不能使用任何特定的实例数据。
 
-
-
 1.3 State
 
 组件都可以拥有自己的state，state和props的区别在于前者只存在于组件的内部。只保存最简单的数据，即那些组件正常工作时的必要数据。

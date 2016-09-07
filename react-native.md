@@ -17,6 +17,10 @@ npm install --save react-native@版本号
 
 `react-native init YourProjectName`
 
-cd YourProjectName
+`cd YourProjectName`
 
-react-native run-ios
+`react-native run-ios`
+
+### Sublime代码提示
+
+`git clone https://github.com/virtoolswebplayer/ReactNative-LiveTemplate`

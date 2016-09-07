@@ -4,7 +4,7 @@
 
 [GitHub中文站](http://reactnative.cn/)
 
-代码实例：https://github.com/bonniee/learning-react-native
+《React Native开发指南》代码实例：https://github.com/bonniee/learning-react-native
 
 ### 安装
 

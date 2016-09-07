@@ -3,7 +3,7 @@
 * [介绍](README.md)
 * [客户端](app.md)
     * [react-native](react-native.md)
-        * [install](rninstall.md)
+        * [开发环境搭建](rnspace.md)
 * [服务端](server.md)
     * [NodeJS](nodejs.md)
         * [NVM](nvm.md)

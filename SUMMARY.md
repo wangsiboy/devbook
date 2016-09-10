@@ -15,6 +15,7 @@
         * [npm-dev](npm-dev.md)
     * [LoopBack](loopback.md)
     * [mongoDB](mongodb.md)
+        * [mongoose](mongoose.md)
     * [SSH](ssh.md)
 * [其它](others.md)
     * [bash shell](bash-shell.md)

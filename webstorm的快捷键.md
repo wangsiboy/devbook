@@ -28,17 +28,11 @@ command + shift + f 全局搜索内容
 
 command + shift + o 搜索文件
 
-command + / 注释/取消注释
-
-/** + Enter 自动生成注释
-
 command + j 输出模板
 
 control + tab 切换上次打开的文件
 
 command + b 跳到变量声明处
-
-command + x 剪切行
 
 command + shift + u 切换大小写
 

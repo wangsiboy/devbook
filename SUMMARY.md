@@ -26,6 +26,7 @@
         * [SVN-server](svn-server.md)
     * [Linux](linux.md)
         * [linux开启80端口](linux开启80端口.md)
+        * 解压rar
     * [MAC电脑操作备忘](mac电脑操作备忘.md)
     * [webstorm的快捷键](webstorm的快捷键.md)
 

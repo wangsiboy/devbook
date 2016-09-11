@@ -14,7 +14,7 @@
 
 `android avd`
 emulator @myProject
-
+react-native run-android
 
 
 

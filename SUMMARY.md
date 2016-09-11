@@ -4,6 +4,8 @@
 * [客户端](app.md)
     * [react-native](react-native.md)
         * [开发环境搭建](rnspace.md)
+            * [01 setup](setup-android.md)
+            * [02 init](02-init.md)
         * [View组件](rnview.md)
         * [Lifecycle](lifecycle.md)
         * [Stream](stream.md)

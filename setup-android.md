@@ -13,8 +13,10 @@
 5. open /usr/local/Cellar/android-sdk/24.4.1_1/extras/intel ,dmg安装后就可以使用模拟器了。
 
 `android avd`
-emulator @myProject
-react-native run-android
+
+`emulator @myProject`
+
+`react-native run-android`
 
 
 

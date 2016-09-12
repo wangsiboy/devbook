@@ -2,6 +2,13 @@
 
 1. 安装java-sdk
 
+`sudo vim etc/profile`
+
+JAVA_HOME="/Library/Java/JavaVirtualMachines/
+jdk1.8.0_20.jdk/Contents/Home/"
+CLASS_PATH="$JAVA_HOME/lib"
+PATH=".;$PATH:$JAVA_HOME/bin"
+
 2. 安装android-sdk
 
 `brew install android-sdk`

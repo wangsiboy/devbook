@@ -1,6 +1,6 @@
 ### 安卓模拟器
 
-1. 安装java-sdk
+1.安装java-sdk
 
 `sudo vim etc/profile`
 
@@ -9,19 +9,26 @@ jdk1.8.0_20.jdk/Contents/Home/"
 CLASS_PATH="$JAVA_HOME/lib"
 PATH=".;$PATH:$JAVA_HOME/bin"
 
-2. 安装android-sdk
+2.安装android-sdk
 
 `brew install android-sdk`
 
-3. 使用android命令打开管理器，安装sdk和扩展
+3.使用android命令打开管理器，安装sdk和扩展
 
-4. brew info android 查看安卓的安装地址
+4.brew info android 查看安卓的安装地址
 
-5. open /usr/local/Cellar/android-sdk/24.4.1_1/extras/intel ,dmg安装后就可以使用模拟器了。
+5.open /usr/local/Cellar/android-sdk/24.4.1_1/extras/intel ,dmg安装后就可以有模拟器了。
 
-`android avd`
+6.`android avd` 创建虚拟机
 
-`emulator @myProject`
+7.sudo vim ~/.bash_profile
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+8.运行`emulator @myProject`
+
+9.android工程中，新建local.properties文件
+
+sdk.dir=/usr/local/opt/android-sdk
 
 `react-native run-android`
 

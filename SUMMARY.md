@@ -6,6 +6,7 @@
         * [开发环境搭建](rnspace.md)
             * [01 setup](setup-android.md)
             * [02 init](02-init.md)
+            * [03 upgrade](03-upgrade.md)
         * [View组件](rnview.md)
         * [Lifecycle](lifecycle.md)
         * [Stream](stream.md)

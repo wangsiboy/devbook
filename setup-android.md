@@ -22,7 +22,12 @@ PATH=".;$PATH:$JAVA_HOME/bin"
 6.`android avd` 创建虚拟机
 
 7.sudo vim ~/.bash_profile
+
 export ANDROID_HOME=/usr/local/opt/android-sdk
+
+然后使用下列命令使其立即生效（否则重启后才生效）：
+
+source ~/.bash_profile
 
 8.运行`emulator @myProject`
 

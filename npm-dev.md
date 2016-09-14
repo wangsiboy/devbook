@@ -1,3 +1,7 @@
+###查看安装的生成器版本
+
+npm ls -g --depth=1 2>/dev/null | grep generator-
+
 ### 自动加浏览器前缀
 
 `npm install autoprefixer-loader --save-dev` 

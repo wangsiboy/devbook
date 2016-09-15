@@ -1,4 +1,6 @@
-sudo xcode-select -switch \/Applications\/Xcode.app\/Contents\/Developer
+**指定xcode**
+
+>sudo xcode-select -switch \/Applications\/Xcode.app\/Contents\/Developer
 
 **指定区域截图**：
 
@@ -18,16 +20,12 @@ sudo xcode-select -switch \/Applications\/Xcode.app\/Contents\/Developer
 
 >defaults write com.apple.finder AppleShowAllFiles -bool false
 
+****常用命令****
 
-
-
+```
 ls -la
-
 cp
-
 sudo mv -v
-
 rm -rf
-
 pwd
-
+```

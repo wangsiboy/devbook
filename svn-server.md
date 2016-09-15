@@ -35,7 +35,7 @@ wangsi=12345678
 
 [general]
 
-anon-access = read
+anon-access = read //拉分支出问题后改成none 
 
 auth-access = write
 

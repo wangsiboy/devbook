@@ -10,6 +10,10 @@
 
 >sudo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/pngcrush -dir /data -revert-iphone-optimizations -q /Users/si/myapp/例子/掌上生活apk/ios/utils/*.png
 
+**导入路径到当前命令行窗口**
+
+>source ~/.bash_profile
+
 * 显示：
 
 >defaults write com.apple.finder AppleShowAllFiles -bool true

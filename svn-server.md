@@ -5,11 +5,11 @@
 ___
 
 #### MAC下命令行创建SVN服务器的方式
-➜ mkdir ~/svnroot
+➜ mkdir ~/svn
 
-➜ svnadmin create ~/svnroot/repository
+➜ svnadmin create ~/svn/repository
 
-➜ cd ~/svnroot/repository
+➜ cd ~/svn/repository
 
 #### 服务器配置
 
@@ -44,9 +44,7 @@ password-db = passwd
 authz-db = authz
 
 >启动:
+killall svnserve && svnserve –d –r ~/svn/
 
-svnserve –d –r ~/svn/
-
->脱离svn
-
+>脱离svn:
 sudo find /XXX/XXX/xxx -name ".svn" -exec rm -r {} \;

@@ -8,6 +8,17 @@ Command-Shift-4
 
 sudo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/pngcrush -dir /data -revert-iphone-optimizations -q /Users/si/myapp/例子/掌上生活apk/ios/utils/*.png
 
+* 显示：
+
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
+* 隐藏：
+
+defaults write com.apple.finder AppleShowAllFiles -bool false
+
+
+
+
 ls -la
 
 cp

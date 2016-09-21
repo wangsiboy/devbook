@@ -20,6 +20,7 @@
     * [mongoDB](mongodb.md)
         * [mongoose](mongoose.md)
     * [SSH](ssh.md)
+    * [HTTPS](https.md)
 * [其它](others.md)
     * [bash shell](bash-shell.md)
     * [HomeBrew](homebrew.md)

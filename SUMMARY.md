@@ -19,6 +19,7 @@
     * [LoopBack](loopback.md)
     * [mongoDB](mongodb.md)
         * [mongoose](mongoose.md)
+        * [install](install.md)
     * [SSH](ssh.md)
     * [HTTPS](https.md)
 * [其它](others.md)

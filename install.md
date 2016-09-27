@@ -27,6 +27,7 @@ port=12345
 fork=true
 
 nohttpinterface=true
+./mongod -f ./mongodb.conf
 
 3、重新绑定mongodb的配置文件地址和访问IP./mongod --bind_ip localhost -f mongodb.conf./mongo localhost:12345/cailianposdb.shutdownServer()4、开机自动启动mongodbvi /etc/rc.d/rc.local/yunpan/mongo/bin/mongod --config /yunpan/mongo/bin/mongodb.conf
 

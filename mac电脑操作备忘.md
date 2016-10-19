@@ -33,3 +33,15 @@ sudo mv -v
 rm -rf
 pwd
 ```
+
+**Appstore下载的dmg路径查找**
+
+第一步，你要打开"活动监视器"
+
+第二步，找到进程"storedownloadd"（以前的是storeagent进程，到10.10之后是storedownloadd这个进程），然后双击打开
+
+第三步，在打开的进程中，点击"打开的文件和端口"，按"command + F"搜索关键字".pkg"，然后拷贝此路径
+
+第四步，打开"Finder"窗口，按快捷键"shift+command+G"，把刚才拷贝的路径粘贴进去，点前往。
+
+/private/var/folders/vs/f804mbr949n6v70jj6ctd3pr0000gn/C/com.apple.appstore/1127487414/jze1425880974225146329.pkg

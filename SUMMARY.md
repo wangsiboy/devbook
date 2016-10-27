@@ -23,6 +23,8 @@
     * [mongoose](mongoose.md)
     * [install](install.md)
 * [Meteor](meteor.md)
+    * [React视图](react视图.md)
+    * [存储数据](存储数据.md)
 * [其它](others.md)
     * [bash shell](bash-shell.md)
     * [HomeBrew](homebrew.md)

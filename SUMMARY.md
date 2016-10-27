@@ -22,6 +22,7 @@
 * [mongoDB](mongodb.md)
     * [mongoose](mongoose.md)
     * [install](install.md)
+* [Meteor](meteor.md)
 * [其它](others.md)
     * [bash shell](bash-shell.md)
     * [HomeBrew](homebrew.md)

@@ -29,7 +29,7 @@
     * [linux开启80端口](linux开启80端口.md)
     * [解压rar](解压rar.md)
     * [CentOS](centos.md)
-* 支付宝
+* [支付宝](支付宝.md)
 * [其它](others.md)
     * [bash shell](bash-shell.md)
     * [HomeBrew](homebrew.md)
@@ -40,5 +40,5 @@
     * [MAC电脑操作备忘](mac电脑操作备忘.md)
     * [github](github.md)
     * [微信测试](微信测试.md)
-* 支付宝
+* [webstorm的快捷键](webstorm的快捷键.md)
 

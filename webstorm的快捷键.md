@@ -1,6 +1,6 @@
 shift + Enter 软回车 , 无论在前一行代码的什么位置,都能定位到下一行.
 
-command 显示/隐藏 左侧面板
+command + 面板Number 显示/隐藏 左侧面板
 
 command + b / 点击 定位方法
 

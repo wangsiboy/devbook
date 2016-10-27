@@ -1,5 +1,5 @@
 ### Install
-curl https://install.meteor.com/ | sh
+`curl https://install.meteor.com/ | sh`
 
 ### 例子程序
 meteor create --list

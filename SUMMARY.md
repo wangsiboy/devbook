@@ -25,7 +25,11 @@
 * [Meteor](meteor.md)
     * [常用包](react视图.md)
     * [存储数据](存储数据.md)
-* [webstorm的快捷键](webstorm的快捷键.md)
+* [Linux](linux.md)
+    * [linux开启80端口](linux开启80端口.md)
+    * [解压rar](解压rar.md)
+    * [CentOS](centos.md)
+* 支付宝
 * [其它](others.md)
     * [bash shell](bash-shell.md)
     * [HomeBrew](homebrew.md)
@@ -33,11 +37,8 @@
         * [Flow](flow.md)
     * [SVN](svn.md)
         * [SVN-server](svn-server.md)
-    * [Linux](linux.md)
-        * [linux开启80端口](linux开启80端口.md)
-        * [解压rar](解压rar.md)
-        * [CentOS](centos.md)
     * [MAC电脑操作备忘](mac电脑操作备忘.md)
     * [github](github.md)
     * [微信测试](微信测试.md)
+* 支付宝
 

@@ -1,12 +1,19 @@
 ### webpack.config.js
 
-``` 
+```
+const path = require('path'); 
+const PATHS = { 
+  app: path.resolve(__dirname, 'app'), 
+  build: path.resolve(__dirname, 'build') 
+};
+ 
 var webpack = require('webpack');
 
 module.exports = { 
-  entry: './entry.js', 
-  output: {
-    path: __dirname,
+  // Entry accepts a path or an object of entries.
+  entry: { app: PATHS.app }, 
+  output: { 
+    path: PATHS.build, 
     filename: 'bundle.js' 
   },
   module: { 
@@ -20,3 +27,10 @@ module.exports = {
   ]
 };
 ```
+1.添加代码后，执行命令
+
+`kanban_app $ node_modules/.bin/webpack`
+
+2.浏览器中查看结果
+
+`kanban_app $ open ./build/index.html`

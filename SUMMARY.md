@@ -25,6 +25,7 @@
 * [Meteor](meteor.md)
     * [常用包](react视图.md)
     * [存储数据](存储数据.md)
+* [webstorm的快捷键](webstorm的快捷键.md)
 * [其它](others.md)
     * [bash shell](bash-shell.md)
     * [HomeBrew](homebrew.md)
@@ -37,7 +38,6 @@
         * [解压rar](解压rar.md)
         * [CentOS](centos.md)
     * [MAC电脑操作备忘](mac电脑操作备忘.md)
-    * [webstorm的快捷键](webstorm的快捷键.md)
     * [github](github.md)
     * [微信测试](微信测试.md)
 

@@ -13,6 +13,7 @@ npm i webpack --save-dev
 * /app
  - index.js
  - component.js 
+ - main.css
 * /build
  - index.html
 * package.json
@@ -31,6 +32,8 @@ module.exports = function () {
 
 #### app/index.js
 ```
+require('./main.css');
+
 var component = require('./component'); 
 var app = document.createElement('div');
 
@@ -52,4 +55,10 @@ app.appendChild(component());
 </html>
 ```
 
+#### app/main.css
+```
+body {
+  background: cornsilk;
+}
+```
 

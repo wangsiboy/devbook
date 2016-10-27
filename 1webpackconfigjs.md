@@ -31,6 +31,14 @@ module.exports = {
 
 `kanban_app $ node_modules/.bin/webpack`
 
+命令太麻烦了，在package.json中添加
+```
+"scripts": {
+  "build": "webpack" 
+},
+```
+
 2.浏览器中查看结果
 
 `kanban_app $ open ./build/index.html`
+

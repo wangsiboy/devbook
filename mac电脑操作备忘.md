@@ -1,3 +1,7 @@
+**修改hosts文件后**
+
+> sudo killall -HUP mDNSResponder
+
 **指定xcode**
 
 > sudo xcode-select -switch \/Applications\/Xcode.app\/Contents\/Developer

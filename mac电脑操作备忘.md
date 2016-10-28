@@ -1,28 +1,28 @@
 **指定xcode**
 
->sudo xcode-select -switch \/Applications\/Xcode.app\/Contents\/Developer
+> sudo xcode-select -switch \/Applications\/Xcode.app\/Contents\/Developer
 
 **指定区域截图**：
 
->Command-Shift-4
+> Command-Shift-4
 
 **批处理还原指定的图片**:
 
->sudo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/pngcrush -dir /data -revert-iphone-optimizations -q /Users/si/myapp/例子/掌上生活apk/ios/utils/*.png
+> sudo \/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/usr\/bin\/pngcrush -dir \/data -revert-iphone-optimizations -q \/Users\/si\/myapp\/例子\/掌上生活apk\/ios\/utils\/\*.png
 
 **导入路径到当前命令行窗口**
 
->source ~/.bash_profile
+> source ~\/.bash\_profile
 
 * 显示：
 
->defaults write com.apple.finder AppleShowAllFiles -bool true
-
->killall Finder
+> defaults write com.apple.finder AppleShowAllFiles -bool true
+> 
+> killall Finder
 
 * 隐藏：
 
->defaults write com.apple.finder AppleShowAllFiles -bool false
+> defaults write com.apple.finder AppleShowAllFiles -bool false
 
 ****常用命令****
 
@@ -34,6 +34,8 @@ rm -rf
 pwd
 ```
 
+RK-E6PS-MBMA-B7WA
+
 **Appstore下载的dmg路径查找**
 
 第一步，你要打开"活动监视器"
@@ -44,4 +46,5 @@ pwd
 
 第四步，打开"Finder"窗口，按快捷键"shift+command+G"，把刚才拷贝的路径粘贴进去，点前往。
 
-/private/var/folders/vs/f804mbr949n6v70jj6ctd3pr0000gn/C/com.apple.appstore/1127487414/jze1425880974225146329.pkg
+\/private\/var\/folders\/vs\/f804mbr949n6v70jj6ctd3pr0000gn\/C\/com.apple.appstore\/1127487414\/jze1425880974225146329.pkg
+

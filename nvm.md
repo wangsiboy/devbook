@@ -8,6 +8,14 @@
 
 nvm ls-remote
 
+nvm install
+
+nvm use
+
+
+
+
+
 ---
 
 > 卸载已安装到全局的 node\/npm
@@ -41,6 +49,4 @@ nvm ls-remote
 sudo chmod 777 \/Users\/si\/.babel.json
 
 npm config set prefix \/Users\/si\/.nvm\/versions\/node\/v6.4.0
-
-
 

@@ -34,7 +34,7 @@ rm -rf
 pwd
 ```
 
-RK-E6PS-MBMA-B7WA
+RK-E6PS-MBMA-B7WY
 
 **Appstore下载的dmg路径查找**
 

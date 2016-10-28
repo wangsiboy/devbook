@@ -12,9 +12,7 @@ nvm install
 
 nvm use
 
-
-
-
+nvm alias default v6.9.1
 
 ---
 

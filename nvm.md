@@ -2,6 +2,14 @@
 
 > nvm 是 Mac 下的 node 管理工具，有点类似管理 Ruby 的 rvm，如果是需要管理 Windows 下的 node，官方推荐是使用 nvmw 或 nvm-windows 。
 
+touch ~\/.bash\_profile
+
+curl -o- https:\/\/raw.githubusercontent.com\/creationix\/nvm\/v0.32.1\/install.sh \| bash
+
+安装命令到github上查看最新的。
+
+[https:\/\/github.com\/creationix\/nvm](https://github.com/creationix/nvm)
+
 [https:\/\/github.com\/hakobera\/nvmw](https://github.com/hakobera/nvmw)
 
 [https:\/\/github.com\/coreybutler\/nvm-windows](https://github.com/coreybutler/nvm-windows)

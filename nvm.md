@@ -6,7 +6,7 @@ touch ~\/.bash\_profile
 
 curl -o- https:\/\/raw.githubusercontent.com\/creationix\/nvm\/v0.32.1\/install.sh \| bash
 
-安装命令到github上查看最新的。
+nvm install v6.9.1
 
 [https:\/\/github.com\/creationix\/nvm](https://github.com/creationix/nvm)
 

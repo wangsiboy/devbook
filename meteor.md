@@ -31,4 +31,6 @@ Paste: "54.192.225.217 warehouse.meteor.com"
 ##### Unexpected mongo exit code 48. Restarting
 sudo lsof -i :3001
 
+kill -9 pidNum
+
 然后我直接killall用到3001端口的进程，重新运行，问题解决了。

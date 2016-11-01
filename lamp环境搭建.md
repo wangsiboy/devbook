@@ -1,4 +1,6 @@
 
+解压 tar -zxvf filename.tar.gz
+删除 rm -rf filename.tar.gz
 
 
 ---

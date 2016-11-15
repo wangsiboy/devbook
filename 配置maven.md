@@ -11,3 +11,5 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 ```
  source ~/.bash_profile
+
+jar包配置搜索地址：http://mvnrepository.com/

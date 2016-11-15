@@ -3,6 +3,7 @@
 * [介绍](README.md)
 * [JAVA](java.md)
     * [配置Maven](配置maven.md)
+    * [intellij idea 使用指南（mac 版）](intellij-idea-使用指南（mac-版）.md)
 * [客户端](app.md)
 * [react-native](react-native.md)
     * [开发环境搭建](rnspace.md)

@@ -13,3 +13,19 @@ export PATH=$M2:$PATH
  source ~/.bash_profile
 
 jar包配置搜索地址：http://mvnrepository.com/
+
+4.用户配置：
+
+拷贝一份全局配置到用户.m2目录下，
+
+cp apache-maven-3.3.9/conf/settings.xml ~/.m2
+
+```
+<mirror>
+  <id> maven-net-cn</id>
+  <name> Maven China Mirror</name>
+  <url> http://maven.net.cn/content/groups/public/</url>
+  <mirrorOf>central</mirrorOf>
+</mirror>
+```
+

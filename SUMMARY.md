@@ -2,6 +2,7 @@
 
 * [介绍](README.md)
 * [JAVA](java.md)
+    * [配置Maven](配置maven.md)
 * [客户端](app.md)
 * [react-native](react-native.md)
     * [开发环境搭建](rnspace.md)
@@ -49,5 +50,4 @@
     * [1\_webpack.config.js](1webpackconfigjs.md)
     * [2\_webpack-dev-server](2webpack-dev-server.md)
     * [3\_Webpack-and-React](3webpack-and-react.md)
-
 

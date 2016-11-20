@@ -1,3 +1,7 @@
+**修改任意来源**
+
+> sudo spctl --master-disable
+
 **修改hosts文件后**
 
 > sudo killall -HUP mDNSResponder

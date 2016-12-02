@@ -6,6 +6,7 @@
     * [intellij idea 使用指南（mac 版）](intellij-idea-使用指南（mac-版）.md)
     * [eclipse快捷键](eclipse快捷键.md)
     * [腾讯云服务器搭建](腾讯云服务器搭建.md)
+    * [redis](redis.md)
 * [客户端](app.md)
 * [react-native](react-native.md)
     * [开发环境搭建](rnspace.md)

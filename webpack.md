@@ -4,7 +4,9 @@ mkdir kanban_app
 
 cd kanban_app 
 
-npm init -y # -y gives you default *package.json*, skip for more control
+npm init -y 
+
+`# -y gives you default *package.json*, skip for more control`
 
 npm i webpack --save-dev
 

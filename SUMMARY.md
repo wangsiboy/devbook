@@ -1,11 +1,12 @@
 # Summary
 
 * [介绍](README.md)
+* [腾讯云服务器](腾讯云服务器搭建.md)
+    * 1. ssh 用户名@IP
 * [JAVA](java.md)
     * [配置Maven](配置maven.md)
     * [intellij idea 使用指南（mac 版）](intellij-idea-使用指南（mac-版）.md)
     * [eclipse快捷键](eclipse快捷键.md)
-    * [腾讯云服务器搭建](腾讯云服务器搭建.md)
     * [redis](redis.md)
     * [MyBatis](mybatis.md)
     * [spring](spring.md)

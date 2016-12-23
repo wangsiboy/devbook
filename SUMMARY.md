@@ -61,7 +61,4 @@
 * [MAC](mac.md)
     * [常用操作](常用操作.md)
     * [OSX包管理器](osx包管理器.md)
-* [HomeBrew](homebrew.md)
-    * [WatchMan](watchman.md)
-    * [Flow](flow.md)
 

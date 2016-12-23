@@ -18,7 +18,11 @@ web.xml
 
 &lt;\/filter-mapping&gt;
 
-&lt;!-- &lt;mvc:interceptors&gt;
+
+
+&lt;!-- 
+
+&lt;mvc:interceptors&gt;
 
 &lt;bean class="org.springframework.mobile.device.DeviceResolverHandlerInterceptor" \/&gt;
 
@@ -48,7 +52,7 @@ web.xml
 
 &lt;\/bean&gt;
 
-&lt;\/mvc:interceptors&gt; 
+&lt;\/mvc:interceptors&gt;
 
 --&gt;
 

@@ -2,7 +2,7 @@
 
 * [介绍](README.md)
 * [腾讯云服务器](腾讯云服务器搭建.md)
-    * 1. ssh 用户名@IP
+    * [JAVA环境](java环境.md)
 * [JAVA](java.md)
     * [配置Maven](配置maven.md)
     * [intellij idea 使用指南（mac 版）](intellij-idea-使用指南（mac-版）.md)
@@ -62,4 +62,5 @@
 * [MAC](mac.md)
     * [常用操作](常用操作.md)
     * [OSX包管理器](osx包管理器.md)
+    * mac上安装jdk
 

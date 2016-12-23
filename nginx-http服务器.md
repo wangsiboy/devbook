@@ -29,19 +29,15 @@ service nginx start
 ```
 upstream cailaobo.com { server 127.0.0.1:8080;}
 
-server { listen 80; server_name cailaobo.com;
+server { 
+listen 80; 
+server_name cailaobo.com;
 
  location / { proxy_pass http://cailaobo.com; index index.html index.htm; }
 
-
-
  error_page 404 /404.html; location = /40x.html { }
 
-
-
  error_page 500 502 503 504 /50x.html; location = /50x.html { }
-
-
 
 }
 

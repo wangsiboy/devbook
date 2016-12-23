@@ -2,7 +2,16 @@
 
 2、brew install nginx
 
-启动nginx ，sudo nginx ;访问localhost:8080 发现已出现nginx的欢迎页面了。备注： ln -s /usr/local/sbin/nginx /usr/bin/nginx 做个软连接。常用的指令有： nginx -V 查看版本，以及配置文件地址nginx -v 查看版本nginx -c filename 指定配置文件nginx -h 帮助
+启动nginx ，sudo nginx ;
+
+访问localhost:8080 发现已出现nginx的欢迎页面了。
+备注： ln -s /usr/local/sbin/nginx /usr/bin/nginx 做个软连接。
+
+常用的指令有： 
+nginx -V 查看版本，以及配置文件地址
+nginx -v 查看版本
+nginx -c filename 指定配置文件
+nginx -h 帮助
 
 #重新加载配置|重启|停止|退出 nginx
 

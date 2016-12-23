@@ -4,6 +4,8 @@
 * [腾讯云服务器](腾讯云服务器搭建.md)
     * [JAVA环境](java环境.md)
     * [tomcat web服务器](tomcat-web服务器.md)
+    * [nginx http服务器](nginx-http服务器.md)
+        * [不带www的地址跳转](不带www的地址跳转.md)
 * [JAVA](java.md)
     * [配置Maven](配置maven.md)
     * [intellij idea 使用指南（mac 版）](intellij-idea-使用指南（mac-版）.md)

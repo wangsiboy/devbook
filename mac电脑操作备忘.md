@@ -1,0 +1,58 @@
+**修改任意来源**
+
+> sudo spctl --master-disable
+
+**修改hosts文件后**
+
+> sudo killall -HUP mDNSResponder
+
+**指定xcode**
+
+> sudo xcode-select -switch \/Applications\/Xcode.app\/Contents\/Developer
+
+**指定区域截图**：
+
+> Command-Shift-4
+
+**批处理还原指定的图片**:
+
+> sudo \/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/usr\/bin\/pngcrush -dir \/data -revert-iphone-optimizations -q \/Users\/si\/myapp\/例子\/掌上生活apk\/ios\/utils\/\*.png
+
+**导入路径到当前命令行窗口**
+
+> source ~\/.bash\_profile
+
+* 显示：
+
+> defaults write com.apple.finder AppleShowAllFiles -bool true
+> 
+> killall Finder
+
+* 隐藏：
+
+> defaults write com.apple.finder AppleShowAllFiles -bool false
+
+****常用命令****
+
+```
+ls -la
+cp
+sudo mv -v
+rm -rf
+pwd
+```
+
+RK-E6PS-MBMA-B7WY
+
+**Appstore下载的dmg路径查找**
+
+第一步，你要打开"活动监视器"
+
+第二步，找到进程"storedownloadd"（以前的是storeagent进程，到10.10之后是storedownloadd这个进程），然后双击打开
+
+第三步，在打开的进程中，点击"打开的文件和端口"，按"command + F"搜索关键字".pkg"，然后拷贝此路径
+
+第四步，打开"Finder"窗口，按快捷键"shift+command+G"，把刚才拷贝的路径粘贴进去，点前往。
+
+\/private\/var\/folders\/vs\/f804mbr949n6v70jj6ctd3pr0000gn\/C\/com.apple.appstore\/1127487414\/jze1425880974225146329.pkg
+

@@ -30,6 +30,10 @@ cp apache-maven-3.3.9/conf/settings.xml ~/.m2
 ```
 
 ```
- <mirror>   <id>alimaven</id> <mirrorOf>central</mirrorOf> <name>aliyun maven</name> <url>http://maven.aliyun.com/nexus/content/groups/public/</url> </mirror> </mirrors>
+ <mirror>   
+  <id>alimaven</id> 
+  <mirrorOf>central</mirrorOf> 
+  <name>aliyun maven</name> <url>http://maven.aliyun.com/nexus/content/groups/public/</url> 
+</mirror> 
 
 ```

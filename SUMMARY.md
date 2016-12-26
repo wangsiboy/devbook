@@ -66,4 +66,5 @@
     * [OSX包管理器](osx包管理器.md)
     * [mac上安装jdk](mac上安装jdk.md)
     * [mac上安装nginx](mac上安装nginx.md)
+    * [sublime.setting](sublimesetting.md)
 

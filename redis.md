@@ -21,6 +21,8 @@ timeout 300
 ```
 redis-server redis.conf
 
+ps aux|grep redis
+
 redis-cli -h domain -p port -a password
 
 ```

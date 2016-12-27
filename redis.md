@@ -2,10 +2,17 @@
 
 https://github.com/uglide/RedisDesktopManager
 
-1. gcc编译环境
+gcc编译环境 yum install gcc-c++
 
-yum install gcc-c++
+https://redis.io/download 下载后解压编译
 
-https://redis.io/download 下载安装
+安装 make install PREFIX=/usr/local/redis
+
+redis.conf
+
+```
+#
+```
+
 
 

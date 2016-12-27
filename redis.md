@@ -10,7 +10,7 @@ https://redis.io/download 下载后解压编译
 
 复制 redis.conf 到/usr/local/redis
 
-修改
+修改配置
 
 ```
 #是否作为守护进程运行

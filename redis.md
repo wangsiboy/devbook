@@ -18,6 +18,7 @@ daemonize yes
 port 6379
 timeout 300
 ```
+redis-server redis.conf
 
 redis-cli -h domain -p port -a password
 

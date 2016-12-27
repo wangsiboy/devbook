@@ -31,4 +31,5 @@ OK
 redis> get foo
 "bar"
 ```
+keys *
 

@@ -11,8 +11,18 @@ https://redis.io/download 下载后解压编译
 redis.conf
 
 ```
-#
+#是否作为守护进程运行
+daemonize yes
+port 6379
+timeout 300
 ```
 
+redis-cli -h domain -p port -a password
 
+```
+redis> set foo bar
+OK
+redis> get foo
+"bar"
+```
 

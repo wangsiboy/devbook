@@ -17,6 +17,7 @@ https://redis.io/download 下载后解压编译
 daemonize yes
 port 6379
 timeout 300
+#密码
 ```
 redis-server redis.conf
 

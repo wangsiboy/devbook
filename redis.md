@@ -30,6 +30,12 @@ redis> set foo bar
 OK
 redis> get foo
 "bar"
-```
 keys *
+set a 100
+get a 
+incr a
+decr a
+del a
+```
+
 

@@ -8,7 +8,7 @@ https://redis.io/download 下载后解压编译
 
 安装 make install PREFIX=/usr/local/redis
 
-redis.conf
+复制修改 redis.conf
 
 ```
 #是否作为守护进程运行

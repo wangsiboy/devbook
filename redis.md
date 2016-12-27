@@ -23,7 +23,7 @@ redis-server redis.conf
 
 看下进程 ps aux|grep redis
 
-redis-cli -h domain -p port -a password
+redis-cli -h domain -p port -a password <-c 集群>
 
 ```
 redis> set foo bar

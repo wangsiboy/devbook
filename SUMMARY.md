@@ -14,6 +14,7 @@
     * [spring](spring.md)
     * [solr](solr.md)
         * [solr单机](solr单机.md)
+        * [中文分词](中文分词.md)
 * [客户端](app.md)
     * [mobile web](mobile-web.md)
     * [WebPack](webpack.md)

@@ -1,3 +1,5 @@
+参考 http://blog.csdn.NET/convict_eva/article/details/53306388
+
 1、安装jdk（略）
 
 目录安排(自行创建目录)：

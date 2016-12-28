@@ -49,11 +49,16 @@ cp solr-5.5.3/dist/solr-dataimporthandler-extras-5.5.3.jar /usr/local/solr/tomca
 ```
 cp -r solr-5.5.3/server/solr /usr/local/solr/solrhome
 
+```
+
+修改web.xml配置solrhom路径
+```
+vim /usr/local/solr/tomcat/webapps/solr/WEB-INF/web.xml
 
 <env-entry>
-  <env-entry-name>solr/home</env-entry-name>
-  <env-entry-value>/usr/local/solr/solrhome</env-entry-value> 
-  <env-entry-type>java.lang.String</env-entry-type>
+ <env-entry-name>solr/home</env-entry-name>
+ <env-entry-value>/usr/local/solr/solrhome</env-entry-value>
+ <env-entry-type>java.lang.String</env-entry-type>
 </env-entry>
 
 ```

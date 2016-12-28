@@ -15,6 +15,7 @@
     * [solr](solr.md)
         * [solr单机](solr单机.md)
         * [中文分词](中文分词.md)
+        * [3 mysql数据导入等](3-mysql数据导入等.md)
 * [客户端](app.md)
     * [mobile web](mobile-web.md)
     * [WebPack](webpack.md)

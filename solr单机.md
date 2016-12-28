@@ -31,7 +31,8 @@ redirectPort="8443" URIEncoding="UTF-8" useBodyEncodingForURI="true"/>
 
 解压
 
-```# tar -zxf solr-5.5.3.tgz 
+```
+# tar -zxf solr-5.5.3.tgz 
 ```
 将solr-5.5.3/server/solr-webapp/webapp下的文件拷贝到tomcat/webapps/solr目录下#mkdir ./tomcat/webapps/solr -p;cp solr-5.5.3/server/solr-webapp/webapp/* ./tomcat/webapps/solr -r 复制solr相关的jar到solr工程下#cp solr-5.5.3/server/lib/*.jar ./tomcat/webapps/solr/WEB-INF/lib/#cp solr-5.5.3/server/lib/ext/*.jar ./tomcat/webapps/solr/WEB-INF/lib/复制字典（如果有重复的不替换）#cp solr-5.5.3/dist/*.jar ./tomcat/webapps/solr/WEB-INF/lib/复制log4j.properties 到solr工程classes下#mkdir ./tomcat/webapps/solr/WEB-INF/classes -p#cp solr-5.5.3/server/resources/log4j.properties ./tomcat/webapps/solr/WEB-INF/classes/
 

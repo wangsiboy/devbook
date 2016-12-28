@@ -115,3 +115,9 @@ bin/shutdown.sh
 <lib dir="${solr.install.dir:..}/dist/" regex="solr-velocity-\d.*\.jar" />
 
 ```
+
+```
+<fieldType name="text_ik" class="solr.TextField"> <analyzer type="index" isMaxWordLength="false" class="org.wltea.analyzer.lucene.IKAnalyzer"/> <analyzer type="query" isMaxWordLength="true" class="org.wltea.analyzer.lucene.IKAnalyzer"/> </fieldType>
+
+```
+

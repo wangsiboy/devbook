@@ -41,15 +41,20 @@ cp solr-5.5.3/dist/solr-dataimporthandler-5.5.3.jar /usr/local/solr/tomcat/webap
 
 cp solr-5.5.3/dist/solr-dataimporthandler-extras-5.5.3.jar /usr/local/solr/tomcat/webapps/solr/WEB-INF/lib/
 
-#配置文件，索引库；一个solr服务对应一份solrhome
+
+```
+
+配置文件，索引库；一个solr服务对应一份solrhome
+
+```
 cp -r solr-5.5.3/server/solr /usr/local/solr/solrhome
 
-```
 
-```
 <env-entry>
   <env-entry-name>solr/home</env-entry-name>
-  <env-entry-value>/usr/local/solr/solrhome</env-entry-value> <env-entry-type>java.lang.String</env-entry-type> </env-entry>
+  <env-entry-value>/usr/local/solr/solrhome</env-entry-value> 
+  <env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
 
 ```
 tomcat

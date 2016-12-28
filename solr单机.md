@@ -102,8 +102,32 @@ redirectPort="8443" URIEncoding="UTF-8" useBodyEncodingForURI="true"/>
 
 创建core:
 
-创建目录new_core（默认会初化此core）#mkdir ./solrhome/new_core -p复制配置文件#cp ./solrhome/configsets/basic_configs/conf/ ./solrhome/new_core/ -rf
+创建目录new_core（默认会初化此core）
+```
+#mkdir ./solrhome/new_core -p
+```
+复制配置文件
+```
+#cp ./solrhome/configsets/basic_configs/conf/ ./solrhome/new_core/ -rf
+```
 
 修改solrconfig.xml 依赖的配置文件
+```
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-dataimporthandler-.*\.jar" />
+
+<lib dir="${solr.install.dir:..}/contrib/extraction/lib" regex=".*\.jar" />
+
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-cell-\d.*\.jar" />
+
+<lib dir="${solr.install.dir:..}/contrib/langid/lib/" regex=".*\.jar" />
+
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-langid-\d.*\.jar" />
+
+<lib dir="${solr.install.dir:..}/contrib/velocity/lib" regex=".*\.jar" />
+
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-velocity-\d.*\.jar" />
+```
+
+把new_core 复制一份，修改名称为test-core，同样可创建test-core
 
 

@@ -15,6 +15,15 @@ http://apache.fayea.com/lucene/solr/5.5.3/solr-5.5.3.tgz
 
 1. jdk、tomcat
 
+修改URI编码配置
+```
+<Connector port="8080" protocol="HTTP/1.1"
+
+connectionTimeout="20000"
+
+redirectPort="8443" URIEncoding="UTF-8" useBodyEncodingForURI="true"/>
+```
+
 ```
 解压
 tar -zxf solr-5.5.3.tgz
@@ -41,6 +50,8 @@ cp solr-5.5.3/dist/solr-dataimporthandler-5.5.3.jar /usr/local/solr/tomcat/webap
 
 cp solr-5.5.3/dist/solr-dataimporthandler-extras-5.5.3.jar /usr/local/solr/tomcat/webapps/solr/WEB-INF/lib/
 
+复制字典（如果有重复的不替换）
+#cp solr-5.5.3/dist/*.jar ./tomcat/webapps/solr/WEB-INF/lib/
 
 ```
 
@@ -62,10 +73,45 @@ vim /usr/local/solr/tomcat/webapps/solr/WEB-INF/web.xml
 </env-entry>
 
 ```
-tomcat
 
+复制依赖的jar到solrhome 目录
+```
+#cd solrhome
+#cp ../solr-5.5.3/contrib/ ./ -r
+#cp ../solr-5.5.3/dist/ ./ -r
+```
+
+tomcat
+```
 bin/startup.sh
 tail -f logs/catalina.out
 bin/shutdown.sh
+```
 
+如果不能访问关闭防火墙
+```
+#server iptables stop
+#chkconfig iptables off
+```
 
+创建core:
+
+创建目录new_core（默认会初化此core）#mkdir ./solrhome/new_core -p复制配置文件#cp ./solrhome/configsets/basic_configs/conf/ ./solrhome/new_core/ -rf
+
+修改solrconfig.xml 依赖的配置文件
+```
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-dataimporthandler-.*\.jar" />
+
+<lib dir="${solr.install.dir:..}/contrib/extraction/lib" regex=".*\.jar" />
+
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-cell-\d.*\.jar" />
+
+<lib dir="${solr.install.dir:..}/contrib/langid/lib/" regex=".*\.jar" />
+
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-langid-\d.*\.jar" />
+
+<lib dir="${solr.install.dir:..}/contrib/velocity/lib" regex=".*\.jar" />
+
+<lib dir="${solr.install.dir:..}/dist/" regex="solr-velocity-\d.*\.jar" />
+
+```

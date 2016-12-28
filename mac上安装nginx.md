@@ -26,7 +26,6 @@ sudo nginx
 nginx -t
 
 
-
 另外附上Mac安装brew命令：
 
 安装命令如下：curl -LsSf http://github.com/mxcl/homebrew/tarball/master | sudo tar xvz -C/usr/local --strip 1当brew安装成功后，就可以随意安装自己想要的软件了，例如wget，命令如下：sudo brew install wget 卸载的话，命令如下：sudo brew uninstall wget查看安装软件的话，命令如下：sudo brew search /apache*/注意/apache*/是使用的正则表达式，用/分割

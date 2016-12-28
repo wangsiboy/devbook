@@ -12,6 +12,7 @@
     * [redis](redis.md)
     * [MyBatis](mybatis.md)
     * [spring](spring.md)
+    * [solr](solr.md)
 * [客户端](app.md)
     * [mobile web](mobile-web.md)
     * [WebPack](webpack.md)

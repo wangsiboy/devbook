@@ -132,4 +132,4 @@ redirectPort="8443" URIEncoding="UTF-8" useBodyEncodingForURI="true"/>
 
 把new_core 复制一份，修改名称为test-core，同样可创建test-core
 
-
+https://code.google.com/p/ik-analyzer/downloads/list

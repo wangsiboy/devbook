@@ -13,6 +13,7 @@
     * [MyBatis](mybatis.md)
     * [spring](spring.md)
     * [solr](solr.md)
+        * [solr 4.10.4](solr-4104.md)
         * [solr单机](solr单机.md)
         * [中文分词](中文分词.md)
         * [3 mysql数据导入等](3-mysql数据导入等.md)

@@ -1,3 +1,6 @@
+**一些复制黏贴，可按步骤完成的看 solr 4.10.4**
+
+
 http://lucene.apache.org/solr/
 
 http://apache.fayea.com/lucene/solr/5.5.3/solr-5.5.3.tgz

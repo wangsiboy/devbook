@@ -73,4 +73,5 @@
     * [mac上安装nginx](mac上安装nginx.md)
     * [sublime.setting](sublimesetting.md)
         * [subl.set2](sublset2.md)
+        * [subl.install](sublinstall.md)
 

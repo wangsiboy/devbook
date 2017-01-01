@@ -1,4 +1,4 @@
-```
+
 { 
 "always_show_minimap_viewport": true, 
 "auto_close_tags": true, 
@@ -44,4 +44,3 @@
 "word_wrap": false
 }
 
-```

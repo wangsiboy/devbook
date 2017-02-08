@@ -21,7 +21,7 @@ export PATH=$M2:$PATH
 
 export NVM_DIR="/Users/si/.nvm"[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
-export JAVA_7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Homeexport JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Homeexport JAVA_HOME=$JAVA_7_HOMEexport CLASS_PATH=$JAVA_HOME/lib#export PATH=$PATH:$JAVA_HOME/binalias jdk8='export JAVA_HOME=$JAVA_8_HOME;export CLASS_PATH=$JAVA_HOME/lib'alias jdk7='export JAVA_HOME=$JAVA_7_HOME;export CLASS_PATH=$JAVA_HOME/lib'
+export JAVA_7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Homeexport JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Homeexport JAVA_HOME=$JAVA_7_HOME export CLASS_PATH=$JAVA_HOME/lib#export PATH=$PATH:$JAVA_HOME/binalias jdk8='export JAVA_HOME=$JAVA_8_HOME;export CLASS_PATH=$JAVA_HOME/lib'alias jdk7='export JAVA_HOME=$JAVA_7_HOME;export CLASS_PATH=$JAVA_HOME/lib'
 
 alias subl='open -a "Sublime Text"'
 

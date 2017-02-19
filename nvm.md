@@ -48,6 +48,10 @@ nvm alias default v6.9.1
 
 > 淘宝镜像
 
+`npm install -g cnpm --registry=https://registry.npm.taobao.org`
+
+---
+
 `npm config set registry https://registry.npm.taobao.org`
 
 `npm config set disturl https://npm.taobao.org/dist`

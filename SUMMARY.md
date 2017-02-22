@@ -19,6 +19,10 @@
         * [3 mysql数据导入等](3-mysql数据导入等.md)
 * Vuejs
     * [vuex](vuex.md)
+        * [State](核心概念-state.md)
+        * [Getters](getters.md)
+        * [mutations](mutations.md)
+        * [Actions](actions.md)
     * [项目装配打包App](vuejs项目装配打包app.md)
 * [客户端](app.md)
     * [mobile web](mobile-web.md)

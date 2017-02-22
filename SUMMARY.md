@@ -17,6 +17,9 @@
         * [1 solr单机](solr单机.md)
         * [2 中文分词](中文分词.md)
         * [3 mysql数据导入等](3-mysql数据导入等.md)
+* Vuejs
+    * [vuex](vuex.md)
+    * [项目装配打包App](vuejs项目装配打包app.md)
 * [客户端](app.md)
     * [mobile web](mobile-web.md)
     * [PC站点工程搭建](pc站点工程搭建.md)
@@ -62,16 +65,5 @@
     * [github](github.md)
     * [支付宝](支付宝.md)
     * [微信测试](微信测试.md)
-* [MAC](mac.md)
-    * [常用操作](常用操作.md)
-    * [webstorm的快捷键](webstorm的快捷键.md)
-    * [eclipse快捷键](eclipse快捷键.md)
-    * [intellij idea 使用指南（mac 版）](intellij-idea-使用指南（mac-版）.md)
-    * [SVN-server](svn-server.md)
-    * [OSX包管理器](osx包管理器.md)
-    * [mac上安装jdk](mac上安装jdk.md)
-    * [mac上安装nginx](mac上安装nginx.md)
-    * [sublime.setting](sublimesetting.md)
-        * [subl.set2](sublset2.md)
-        * [subl.install](sublinstall.md)
+* Vuejs
 

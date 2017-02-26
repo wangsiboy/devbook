@@ -2,10 +2,10 @@
 
 将 /tree/master/ 换成 /trunk/
 
-svn checkout https://github.com/aksonov/react-native-router-flux/trunk/Example/components
-
+svn checkout [https://github.com/aksonov/react-native-router-flux/trunk/Example/components](https://github.com/aksonov/react-native-router-flux/trunk/Example/components)
 
 ### 删除
+
 ```
 # 恢复暂存区的指定文件到工作区 
 $ git checkout [file] 
@@ -37,5 +37,7 @@ $ git revert [commit]
 
 # 暂时将未提交的变化移除，稍后再移入 
 $ git stash $ git stash pop
-
 ```
+
+
+

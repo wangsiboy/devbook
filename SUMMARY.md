@@ -73,5 +73,4 @@
     * [github](github.md)
     * [支付宝](支付宝.md)
     * [微信测试](微信测试.md)
-* Vuejs
 

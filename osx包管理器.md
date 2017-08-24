@@ -10,8 +10,10 @@ http://brew.sh/index_zh-cn.html
 
 2. 通过下面的代码完成homebrew的安装：
 `ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”`
+ 
+to install the Spring Boot CLI is:
+ $ brew tap pivotal/tap
+ $ brew install springboot
 
-
-
-
+brew upgrade
 

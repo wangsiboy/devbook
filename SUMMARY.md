@@ -5,7 +5,6 @@
 * [介绍](README.md)
 * [MAC](mac.md)
   * [常用操作](常用操作.md)
-  * [webstorm的快捷键](webstorm的快捷键.md)
   * [eclipse快捷键](eclipse快捷键.md)
   * [SVN-server](svn-server.md)
   * [OSX包管理器](osx包管理器.md)
@@ -81,4 +80,6 @@
 * [IntelliJ IDEA](intellij-idea.md)
   * [idea快捷键](intellij-idea/ideakuai-jie-jian.md)
   * [idea-其它](intellij-idea/ideaqi-ta.md)
+* [WebStorm](webstorm.md)
+  * [WebStorm快捷键](webstorm/webstormkuai-jie-jian.md)
 

@@ -1,11 +1,12 @@
 # Summary
 
+## 旧版
+
 * [介绍](README.md)
 * [MAC](mac.md)
   * [常用操作](常用操作.md)
   * [webstorm的快捷键](webstorm的快捷键.md)
   * [eclipse快捷键](eclipse快捷键.md)
-  * [intellij idea 使用指南（mac 版）](intellij-idea-使用指南（mac-版）.md)
   * [SVN-server](svn-server.md)
   * [OSX包管理器](osx包管理器.md)
   * [mac上安装jdk](mac上安装jdk.md)
@@ -74,4 +75,10 @@
 * [mongoDB](mongodb.md)
   * [mongoose](mongoose.md)
   * [install](install.md)
+
+## 软件使用
+
+* [IntelliJ IDEA](intellij-idea.md)
+  * [idea快捷键](intellij-idea/ideakuai-jie-jian.md)
+  * [idea-其它](intellij-idea/ideaqi-ta.md)
 

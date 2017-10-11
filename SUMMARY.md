@@ -5,7 +5,6 @@
 * [介绍](README.md)
 * [MAC](mac.md)
   * [常用操作](常用操作.md)
-  * [eclipse快捷键](eclipse快捷键.md)
   * [SVN-server](svn-server.md)
   * [OSX包管理器](osx包管理器.md)
   * [mac上安装jdk](mac上安装jdk.md)
@@ -82,4 +81,6 @@
   * [idea-其它](intellij-idea/ideaqi-ta.md)
 * [WebStorm](webstorm.md)
   * [WebStorm快捷键](webstorm/webstormkuai-jie-jian.md)
+* [Eclipse](eclipse.md)
+  * [Eclipse快捷键](eclipse/eclipsekuai-jie-jian.md)
 

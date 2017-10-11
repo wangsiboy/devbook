@@ -78,6 +78,7 @@
 
 * [IntelliJ IDEA](intellij-idea.md)
   * [idea快捷键](intellij-idea/ideakuai-jie-jian.md)
+  * [windows下的快捷键](intellij-idea/windowsxia-de-kuai-jie-jian.md)
   * [idea-其它](intellij-idea/ideaqi-ta.md)
 * [WebStorm](webstorm.md)
   * [WebStorm快捷键](webstorm/webstormkuai-jie-jian.md)

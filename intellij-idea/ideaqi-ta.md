@@ -16,7 +16,7 @@ VCS—&gt;SUBVERSION—&gt;BRANCH
 
 [http://www.riaway.com/theme.php](http://www.riaway.com/theme.php)
 
-[https://github.com/y3sh/Intellij-Colors-Sublime-Monokai，下载jar包后导入。](https://github.com/y3sh/Intellij-Colors-Sublime-Monokai，下载jar包后导入。)
+https://github.com/y3sh/Intellij-Colors-Sublime-Monokai，下载jar包后导入。
 
 * **windows下安装与破解**
 
@@ -30,7 +30,7 @@ VCS—&gt;SUBVERSION—&gt;BRANCH
 
 * **类代码模版自定义**
 
-> File -- Settings -- Editor -- Code Style -- File and Code Templates ，修改Class，添加文件的头部注释
+> File -- Settings -- Editor -- Code Style -- File and Code Templates，修改Class，添加文件的头部注释
 
 ```
 /**

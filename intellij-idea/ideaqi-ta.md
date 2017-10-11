@@ -16,7 +16,9 @@ VCS—&gt;SUBVERSION—&gt;BRANCH
 
 [http://www.riaway.com/theme.php](http://www.riaway.com/theme.php)
 
-https://github.com/y3sh/Intellij-Colors-Sublime-Monokai，下载jar包后导入。
+[https://github.com/y3sh/Intellij-Colors-Sublime-Monokai](https://github.com/y3sh/Intellij-Colors-Sublime-Monokai，下载jar包后导入。)
+
+个人常用的主题Sublime-Monokai，下载jar包后导入。
 
 * **windows下安装与破解**
 

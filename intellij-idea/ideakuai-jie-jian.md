@@ -16,6 +16,8 @@ idea编辑快捷键
 
 8、command+shift+o 按照文件名查找文件
 
+编辑快捷键，keymap中查找cyclic，去除Alt+斜杠，查找basic，添加上。
+
 调试快捷键
 
 单步调试

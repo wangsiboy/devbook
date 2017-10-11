@@ -84,4 +84,7 @@
   * [WebStorm快捷键](webstorm/webstormkuai-jie-jian.md)
 * [Eclipse](eclipse.md)
   * [Eclipse快捷键](eclipse/eclipsekuai-jie-jian.md)
+* [Sublime](sublime.md)
+  * [配置sublime](sublime/pei-zhisublime.md)
+  * [配置2](sublime/pei-zhi-2.md)
 

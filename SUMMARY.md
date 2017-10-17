@@ -91,4 +91,7 @@
   * [Docker镜像常用命令](huan-jing-da-jian-xi-lie/docker/dockerchang-yong-ming-ling.md)
   * [Docker容器常用命令](huan-jing-da-jian-xi-lie/docker/dockerrong-qi-chang-yong-ming-ling.md)
   * [Dockerfile](huan-jing-da-jian-xi-lie/docker/dockerfile.md)
+  * [私有仓库](huan-jing-da-jian-xi-lie/docker/si-you-cang-ku.md)
+  * [Maven插件构建镜像](huan-jing-da-jian-xi-lie/docker/mavencha-jian-gou-jian-jing-xiang.md)
+  * [Docker Compose](huan-jing-da-jian-xi-lie/docker/docker-compose.md)
 

@@ -19,8 +19,6 @@
   * [配置Maven](配置maven.md)
   * [redis](redis.md)
   * [MyBatis](mybatis.md)
-  * [spring](spring.md)
-    * [SpringBoot](spring/springboot.md)
   * [solr](solr.md)
     * [solr 4.10.4](solr-4104.md)
     * [1 solr单机](solr单机.md)
@@ -70,6 +68,8 @@
 * [mongoDB](mongodb.md)
   * [mongoose](mongoose.md)
   * [install](install.md)
+* [spring](spring.md)
+  * [SpringBoot](spring/springboot.md)
 
 ## 软件使用
 

@@ -84,6 +84,8 @@
 * [Sublime](sublime.md)
   * [配置sublime](sublime/pei-zhisublime.md)
   * [配置2](sublime/pei-zhi-2.md)
+* [GitHub学习](githubxue-xi.md)
+  * [Git命令](githubxue-xi/gitming-ling.md)
 
 ## 环境搭建系列
 

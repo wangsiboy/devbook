@@ -88,6 +88,7 @@
   * [Git命令](githubxue-xi/gitming-ling.md)
   * [git advance](githubxue-xi/git-advance.md)
   * [git分支管理](githubxue-xi/gitfen-zhi-guan-li.md)
+  * [GitHub 常见操作](githubxue-xi/github-chang-jian-de-ji-zhong-cao-zuo.md)
 
 ## 环境搭建系列
 

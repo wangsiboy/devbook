@@ -1,8 +1,10 @@
 Mac默认安装了Git、SSH，安装略过...
 
+[https://github.com/tiimgreen/github-cheat-sheet/](https://github.com/tiimgreen/github-cheat-sheet/)
+
 #### 向GitHub 提交代码
 
-终端输入 `ssh-keygen -t rsa `，什么意思呢？
+终端输入 `ssh-keygen -t rsa`，什么意思呢？
 
 就是指定 rsa 算法生成密钥，接着连续三个回车键（不需要输入密码），
 
@@ -35,6 +37,8 @@ Warning: Permanently added 'github.com,192.30.255.112' (RSA) to the list of know
 Hi wangsiboy! You've successfully authenticated, but GitHub does not provide shell access.
 */
 ```
+
+#### 
 
 
 

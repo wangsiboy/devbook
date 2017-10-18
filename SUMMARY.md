@@ -86,6 +86,7 @@
   * [配置2](sublime/pei-zhi-2.md)
 * [GitHub学习](githubxue-xi.md)
   * [Git命令](githubxue-xi/gitming-ling.md)
+  * [git advance](githubxue-xi/git-advance.md)
 
 ## 环境搭建系列
 

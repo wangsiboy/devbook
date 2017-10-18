@@ -1,3 +1,5 @@
+#### 先尝试下git命令的本地操作
+
 新建test目录，在目录下创建了a.md文件。
 
 ```
@@ -32,16 +34,79 @@ git add a.md
 
 git status查看下状态:
 
-a.md文件等待被提交。git rm --cached &lt;file&gt;可以移出缓存。
+a.md文件等待被提交。`git rm --cached <file>`可以移出缓存。
 
 ```
 // 提交，-m表示加上本次提交的说明信息
-git commit -m 'first commit'
+git commit -m 'hello github!'
+
+// 哦，先配置下你的邮箱和用户名，以下是我的：
+  git config --global user.email "50208308@qq.com"
+  git config --global user.name "wangsiboy"
+  // 每一次commit都会产生一条log，
+  // 这条log标记了提交人的姓名与邮箱，
+  // 以便其他人方便的查看与联系提交人，
+  // 所以我们在进行提交代码的第一步就是要设置自己的用户名与邮箱。
+
+  // 以上进行了全局配置，切换到你的项目要更换的话，以上代码把 --global 参数去除，再重新执行一遍就ok了。
 ```
 
 ```
 git log # 显示提交记录
 ```
+
+---
+
+#### 关联远程仓库
+
+第一步，在GitHub上建一个test项目
+
+第二步，与本地关联
+
+```
+git remote and origin git@github.com:wangsiboy/test.git
+```
+
+即指定一个远程仓库，他的地址是 git@github.com:wangsiboy/test.git
+
+origin 是给这个项目的远程仓库起的名字，是的，名字你可以随便取，只不过大家公认的只有一个远程仓库时名字就是 origin 。
+
+为什么要给远程仓库取名字？
+
+因为我们可能一个项目有多个远程仓库，比如 GitHub 一个，比如公司一个，这样的话提交到不同的远程仓库就需要指定不同的仓库名字了。
+
+查看我们当前项目有哪些远程仓库可以执行如下命令：
+
+```
+git remote -v
+```
+
+#### 同步远程仓库
+
+```
+// 将远程仓库的最新代码拉过来，更新到本地。
+git pull origin master
+```
+
+```
+// 将本地代码推送到远程主分支上，更新到主分支。
+git push origin master
+```
+
+一般push前先pull，这样不容易冲突。
+
+现在，本地和远程一样喽～
+
+---
+
+#### Clone项目
+
+```
+//clone GitHub上的test项目到本地
+git clone git@github.com:wangsiboy/test.git
+```
+
+git@github.com:&lt;你到账号&gt;/项目名.git
 
 ---
 
@@ -95,20 +160,9 @@ git tag
 
 //多个tag时，切换某个tag
 git checkout v1.0.0
-
 ```
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+#### 
 
 
 

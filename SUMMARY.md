@@ -100,3 +100,7 @@
   * [Maven插件构建镜像](huan-jing-da-jian-xi-lie/docker/mavencha-jian-gou-jian-jing-xiang.md)
   * [Docker Compose](huan-jing-da-jian-xi-lie/docker/docker-compose.md)
 
+## 编程技巧
+
+* [设计模式](bian-cheng-ji-qiao/she-ji-mo-shi.md)
+

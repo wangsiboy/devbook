@@ -104,6 +104,8 @@
 
 * [数据库](数据库.md)
 * [SQL学习](shu-ju-ku/sqlxue-xi.md)
+  * [背景知识](shu-ju-ku/sqlxue-xi/bei-jing-zhi-shi.md)
+  * [术语和定义](shu-ju-ku/sqlxue-xi/zhu-yu-he-ding-yi.md)
 * [mongoDB](mongodb.md)
   * [mongoose](mongoose.md)
   * [install](install.md)

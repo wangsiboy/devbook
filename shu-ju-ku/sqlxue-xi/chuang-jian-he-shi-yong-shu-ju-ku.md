@@ -17,6 +17,13 @@ mysql -u mlgm -p;
 use bank;
 /* 或者 mysql -u mlgm -p bank 指定用户和使用的数据库 */
 
+/* 输入密码后出现mysql>标记，在该标记的后面可以运行SQL语句 */
+/* 例如：查看当前日期和时间 */
+mysql> SELECT now();
+
+/* now()是内建的MySQL函数 */
+/* 与Orcale兼容的查询语句中必须包含from子句 */
+mysql> SELECT now() FROM dual;
 ```
 
 * 创建数据库表和示例数据

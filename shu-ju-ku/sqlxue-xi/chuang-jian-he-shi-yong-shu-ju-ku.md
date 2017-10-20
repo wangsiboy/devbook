@@ -2,24 +2,26 @@
 
 * 下载
 
-https://dev.mysql.com/downloads/
+[https://dev.mysql.com/downloads/](https://dev.mysql.com/downloads/)
 
 * 创建示例数据库以及数据库用户
 
 ```
 mysql -u root -p
 create database bank;
-/* 用户名：mlgm 密码：xyz
+/* 用户名：mlgm 密码：xyz */
 grant all privileges on bank.* to 'mlgm'@'localhost' identified by 'xyz';
 quit;
 
 mysql -u mlgm -p;
 use bank;
+/* 或者 mysql -u mlgm -p bank 指定用户和使用的数据库 */
+
 ```
 
 * 创建数据库表和示例数据
 
-http://examples.oreilly.com/learningsql
+脚本下载：[http://examples.oreilly.com/learningsql](http://examples.oreilly.com/learningsql)
 
 ```
 /* begin table creation */
@@ -662,7 +664,6 @@ from account a
 where a.product_cd IN ('CHK','SAV','CD','MM');
 
 /* end data population */
-
 ```
 
 

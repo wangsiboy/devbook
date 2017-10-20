@@ -18,8 +18,6 @@ VALUES (null, 'William Turner', 'M', '1972-05-27');
 SELECT person_id, name, birth_date 
 FROM person
 WHERE person_id=1;
-
-
 ```
 
 ```
@@ -30,7 +28,7 @@ INSERT INTO favorite_food
 INSERT INTO favorite_food
  (person_id, food)
  VALUES (1, 'cookies');
- 
+
 SELECT food
 FROM favorite_food
 WHERE person_id=1
@@ -63,5 +61,15 @@ DELETE FROM person;
 /* 没有where子句，表中的所有行都会被删除 */
 ```
 
+---
 
+查看数据库中可用的表，可用使用`show tables`命令。
+
+```
+/* 删除不再使用的表 */
+DROP TABLE favorite_food;
+DROP TABLE person;
+```
+
+银行方案使用创建数据库时导入的11个表。
 

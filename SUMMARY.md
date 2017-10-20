@@ -9,12 +9,6 @@
   * [OSX包管理器](osx包管理器.md)
   * [mac上安装jdk](mac上安装jdk.md)
   * [mac上安装nginx](mac上安装nginx.md)
-* [腾讯云服务器](腾讯云服务器搭建.md)
-  * [JAVA环境](java环境.md)
-  * [tomcat web服务器](tomcat-web服务器.md)
-  * [nginx http服务器](nginx-http服务器.md)
-    * [不带www的地址跳转](不带www的地址跳转.md)
-    * [静态资源nginx服务器](静态资源nginx服务器.md)
 * [JAVA](java.md)
   * [配置Maven](配置maven.md)
   * [redis](redis.md)
@@ -52,18 +46,6 @@
   * [Lifecycle](lifecycle.md)
   * [Stream](stream.md)
   * [事件处理](事件处理.md)
-* [服务端](server.md)
-  * [Nginx](nginx.md)
-  * [Docker](docker.md)
-  * [SSH](ssh.md)
-  * [HTTPS](https.md)
-  * [LAMP环境搭建](lamp环境搭建.md)
-  * [LoopBack](loopback.md)
-  * [php](php.md)
-* [NodeJS](nodejs.md)
-  * [NVM](nvm.md)
-  * [install](ninstall.md)
-  * [npm-dev](npm-dev.md)
 * [spring](spring.md)
   * [SpringBoot](spring/springboot.md)
 
@@ -88,6 +70,23 @@
 
 ## 环境搭建系列
 
+* [LAMP环境搭建](lamp环境搭建.md)
+* [Nginx](nginx.md)
+* [SSH](ssh.md)
+* [NodeJS](nodejs.md)
+  * [NVM](nvm.md)
+  * [install](ninstall.md)
+  * [npm-dev](npm-dev.md)
+* [阿里ECS](server.md)
+  * [LoopBack](loopback.md)
+  * [php](php.md)
+* [腾讯云服务器](腾讯云服务器搭建.md)
+  * [JAVA环境](java环境.md)
+  * [tomcat web服务器](tomcat-web服务器.md)
+  * [nginx http服务器](nginx-http服务器.md)
+    * [不带www的地址跳转](不带www的地址跳转.md)
+    * [静态资源nginx服务器](静态资源nginx服务器.md)
+* [数据库](数据库.md)
 * [Docker](huan-jing-da-jian-xi-lie/docker.md)
   * [Docker镜像常用命令](huan-jing-da-jian-xi-lie/docker/dockerchang-yong-ming-ling.md)
   * [Docker容器常用命令](huan-jing-da-jian-xi-lie/docker/dockerrong-qi-chang-yong-ming-ling.md)
@@ -95,6 +94,8 @@
   * [私有仓库](huan-jing-da-jian-xi-lie/docker/si-you-cang-ku.md)
   * [Maven插件构建镜像](huan-jing-da-jian-xi-lie/docker/mavencha-jian-gou-jian-jing-xiang.md)
   * [Docker Compose](huan-jing-da-jian-xi-lie/docker/docker-compose.md)
+* [Docker](docker.md)
+* [HTTPS](https.md)
 
 ## 编程技巧
 
@@ -102,7 +103,6 @@
 
 ## 数据库
 
-* [数据库](数据库.md)
 * [SQL学习](shu-ju-ku/sqlxue-xi.md)
   * [背景知识](shu-ju-ku/sqlxue-xi/bei-jing-zhi-shi.md)
   * [术语和定义](shu-ju-ku/sqlxue-xi/zhu-yu-he-ding-yi.md)

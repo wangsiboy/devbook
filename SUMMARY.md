@@ -109,6 +109,7 @@
   * [创建和使用数据库](shu-ju-ku/sqlxue-xi/chuang-jian-he-shi-yong-shu-ju-ku.md)
   * [MySQL数据类型](shu-ju-ku/sqlxue-xi/shu-ju-lei-xing.md)
   * [表的创建](shu-ju-ku/sqlxue-xi/biao-de-chuang-jian.md)
+  * [操作与修改表](shu-ju-ku/sqlxue-xi/cao-zuo-yu-xiu-gai-biao.md)
 * [mongoDB](mongodb.md)
   * [mongoose](mongoose.md)
   * [install](install.md)

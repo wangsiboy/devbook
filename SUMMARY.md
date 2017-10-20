@@ -107,6 +107,7 @@
   * [背景知识](shu-ju-ku/sqlxue-xi/bei-jing-zhi-shi.md)
   * [术语和定义](shu-ju-ku/sqlxue-xi/zhu-yu-he-ding-yi.md)
   * [创建和使用数据库](shu-ju-ku/sqlxue-xi/chuang-jian-he-shi-yong-shu-ju-ku.md)
+  * [MySQL数据类型](shu-ju-ku/sqlxue-xi/shu-ju-lei-xing.md)
 * [mongoDB](mongodb.md)
   * [mongoose](mongoose.md)
   * [install](install.md)

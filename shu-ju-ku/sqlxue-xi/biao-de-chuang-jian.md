@@ -91,7 +91,7 @@ CREATE TABLE favorite_food
 
 外键约束，它限制了favorite表中的person_id列的值只能够来自person表。_
 
-_favorite\__food表的部分数据依赖于person表，因此可以将favorite\_food表视为子表，而将person表视为父表。需要同时输入数据，那么必须先在父表中创建一行。
+favorite\_food表的部分数据依赖于person表，因此可以将favorite\_food表视为子表，而将person表视为父表。需要同时输入数据，那么必须先在父表中创建一行。
 
 > 忘记加外键约束，可以通过alter table语句添加。
 >

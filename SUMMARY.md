@@ -60,14 +60,10 @@
   * [LAMP环境搭建](lamp环境搭建.md)
   * [LoopBack](loopback.md)
   * [php](php.md)
-* [数据库](数据库.md)
 * [NodeJS](nodejs.md)
   * [NVM](nvm.md)
   * [install](ninstall.md)
   * [npm-dev](npm-dev.md)
-* [mongoDB](mongodb.md)
-  * [mongoose](mongoose.md)
-  * [install](install.md)
 * [spring](spring.md)
   * [SpringBoot](spring/springboot.md)
 
@@ -103,4 +99,12 @@
 ## 编程技巧
 
 * [设计模式](bian-cheng-ji-qiao/she-ji-mo-shi.md)
+
+## 数据库
+
+* [数据库](数据库.md)
+* [SQL学习](shu-ju-ku/sqlxue-xi.md)
+* [mongoDB](mongodb.md)
+  * [mongoose](mongoose.md)
+  * [install](install.md)
 

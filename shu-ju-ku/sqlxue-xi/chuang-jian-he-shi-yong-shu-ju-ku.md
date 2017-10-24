@@ -15,7 +15,7 @@ quit;
 
 mysql -u mlgm -p;
 use bank;
-/* 或者 mysql -u mlgm -p bank 指定用户和使用的数据库 */
+/* mysql -u mlgm -p bank 指定用户和使用的数据库 */
 
 /* 输入密码后出现mysql>标记，在该标记的后面可以运行SQL语句 */
 /* 例如：查看当前日期和时间 */

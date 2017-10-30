@@ -9,7 +9,7 @@
 | having | 过滤不要的组 |
 | order by | 按一个或多个列，对最后结果集中的行进行排序 |
 
-### select子句
+## select子句
 
 **用于在所有可能的列中，选择查询结果集要包含哪些列。**
 
@@ -32,7 +32,7 @@ SELECT emp_id,
   'ACTIVE',
   emp_id * 3.14159,
   UPPER(lname)
-FROM employee;  
+FROM employee;
 ```
 
 ```
@@ -50,7 +50,7 @@ SELECT emp_id,
   'ACTIVE' status,
   emp_id * 3.14159 empid_x_pi,
   UPPER(lname) AS last_name_upper
-FROM employee;  
+FROM employee;
 ```
 
 为了在子句中更清晰地表示别名，可以在这些别名前加上关键字as
@@ -71,7 +71,7 @@ ALL关键字是默认的，这里被DISTINCT替代。
 
 > 产生无重复的结果集需要首先对数据排序，这对大的结果集相当耗时。
 
-### from子句
+## from子句
 
 定义了查询中所使用的表，以及连接这些表的方式。
 
@@ -111,6 +111,81 @@ FROM employee;
 SELECT emp_id, start_year
 FROM employee_vw;
 ```
+
+视图可以用来对用户隐藏列、简化数据库设计等。
+
+### 表连接
+
+如果from子句中出现了多个表，那么要求同时包含各表之间的连接条件。不是必要，却是ANSI所建议的连接多个表的方法。例子：
+
+```
+SELECT employee.emp_id, employee.fname, employee.lname, department.name dept_name
+FROM employee INNER JOIN department ON employee.dept_id = department.dept_id;
+```
+
+### 定义表别名
+
+要指明引用哪个表。有两种在from子句之外引用表的方式：
+
+* 使用完整的表名称，如employee.emp\_id；
+* 为每个表指定别名，并在查询中需要的地方使用该别名。
+
+```
+SELECT e.emp_id, d.name dept_name
+FROM employee e INNER JOIN department d ON e.dept_id = d.dept_id;
+```
+
+## where子句
+
+在结果集中过滤行。
+
+```
+SELECT emp_id, title FROM employee 
+WHERE title = 'Head Teller';
+```
+
+同时包含更多的条件，使用操作符and、or或not分隔。
+
+同时使用and和or使用圆括号。
+
+```
+SELECT emp_id,start_date,title
+FROM employee
+WHERE (title = 'Head TEller' AND start_date > '2006-01-01') 
+OR (title = 'Teller' AND start_date > '2007-01-01');
+```
+
+## group by 
+
+用于根据列值对数据进行分组。
+
+## having 子句
+
+与where子句类似的方式对分组数据进行过滤。
+
+```
+SELECT d.name, count(e.emp_id) num_employees
+FROM department d INNER JOIN employee e
+ON d.dept_id = e.dept_id
+GROUP BY d.name
+HAVING count(e.emp_id) > 2;
+```
+
+## order by 子句
+
+排序。
+
+关键字asc和desc指定升序还是降序。默认升序。
+
+```
+SELECT account_id, product_cd, open_date, avail_balance
+FROM account
+ORDER BY avail_balance DESC;
+```
+
+MySQL包含的limit子句允许对排序后的数据进行过滤，只显示其中的前X行。
+
+### 根据表达式排序
 
 
 

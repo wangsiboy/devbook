@@ -68,6 +68,10 @@
   * [git分支管理](githubxue-xi/gitfen-zhi-guan-li.md)
   * [GitHub 常见操作](githubxue-xi/github-chang-jian-de-ji-zhong-cao-zuo.md)
 
+## 项目管理
+
+* [项目管理](xiang-mu-guan-li.md)
+
 ## 环境搭建系列
 
 * [LAMP环境搭建](lamp环境搭建.md)

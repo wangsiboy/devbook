@@ -71,6 +71,7 @@
 ## 项目管理
 
 * [项目管理](xiang-mu-guan-li.md)
+* [敏捷开发的12个原则](min-jie-kai-fa-de-12-ge-yuan-ze.md)
 
 ## 环境搭建系列
 

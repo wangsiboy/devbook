@@ -3,6 +3,7 @@
 ## 旧版
 
 * [介绍](README.md)
+  * [效率](xiao-lv.md)
 * [MAC](mac.md)
   * [常用操作](常用操作.md)
   * [SVN-server](svn-server.md)

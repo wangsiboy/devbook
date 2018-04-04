@@ -66,7 +66,7 @@ default-storage-engine=INNODB
 
 mysql -uroot -p
 
-set password for root@localhost=password\(‘123'\);
+set password for root@localhost=password\('123456'\);
 
 # 解决远程连接mysql错误1130
 
@@ -77,8 +77,6 @@ mysql>update user set host = '%' where user = 'root';
 mysql>flush privileges;
 mysql>select host, user from user
 ```
-
-
 
 配置maven
 

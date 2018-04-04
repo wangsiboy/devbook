@@ -10,8 +10,6 @@ Windows系统
 
 * maven
 
-
-
 配置JDK变量
 
 * 在系统变量里新建变量名：JAVA\_HOME，变量值：E:\Development\Java\jdk1.8.0\_92
@@ -19,8 +17,6 @@ Windows系统
 * 在系统变量里新建变量名：CLASSPATH，变量值：.;%JAVA\_HOME%\lib\dt.jar;%JAVA\_HOME%\lib\tools.jar;
 
 * 在系统变量里打开PATH，添加“%JAVA\_HOME%\bin”和“%JAVA\_HOME%\jre\bin”
-
-
 
 配置tomcat变量
 
@@ -33,8 +29,6 @@ Windows系统
 * 打开cmd，进入tomcat下的bin目录，执行“service.bat install”
 
 * 附：service卸载命令：service.bat remove
-
-
 
 配置mysql
 
@@ -74,6 +68,16 @@ mysql -uroot -p
 
 set password for root@localhost=password\(‘123'\);
 
+# 解决远程连接mysql错误1130
+
+```
+mysql -u root -pvmware
+mysql>use mysql;
+mysql>update user set host = '%' where user = 'root';
+mysql>flush privileges;
+mysql>select host, user from user
+```
+
 
 
 配置maven
@@ -81,7 +85,4 @@ set password for root@localhost=password\(‘123'\);
 在系统变量里新建变量名：M2\_HOME和MAVEN\_HOME，变量值：C:\wangsi\apache-maven-3.5.2
 
 PATH的最后添加：%M2\_HOME%\bin;%MAVEN\_HOME%\bin
-
-  
-
 
